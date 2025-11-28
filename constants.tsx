@@ -1,5 +1,5 @@
 import React from 'react';
-import { Task } from './types';
+import type { Task } from './types.ts';
 import { 
   Puzzle, 
   ArrowRight, 
@@ -174,7 +174,7 @@ export const TASKS: Task[] = [
       { id: 'opt3', label: '➡️', isCorrect: false, color: 'bg-blue-100' },
     ],
     correctAnswerId: 'opt2',
-    hint: "Piensa en el movimiento: Para dormir te tumbas (abajo), para saltar vas hacia...",
+    hint: "Piensa en el movimiento: Para dormir te tumbas (abajo), para saltar vas hacia el cielo (arriba).",
     csExplanation: "¡Eso es CODIFICACIÓN! Convertimos acciones reales en símbolos lógicos.",
     badgeName: "Agente Secreto"
   },

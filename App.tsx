@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { TASKS } from './constants';
-import { Option, Task } from './types';
-import GameCard from './components/GameCard';
-import FeedbackModal from './components/FeedbackModal';
-import BadgeList from './components/BadgeList';
+import { TASKS } from './constants.tsx';
+import type { Option, Task } from './types.ts';
+import GameCard from './components/GameCard.tsx';
+import FeedbackModal from './components/FeedbackModal.tsx';
+import BadgeList from './components/BadgeList.tsx';
 import { Play, RotateCcw } from 'lucide-react';
 
 const App: React.FC = () => {

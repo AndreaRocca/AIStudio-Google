@@ -1,5 +1,5 @@
 import React from 'react';
-import { Task, Option } from '../types';
+import type { Task, Option } from '../types.ts';
 import { HelpCircle } from 'lucide-react';
 
 interface GameCardProps {

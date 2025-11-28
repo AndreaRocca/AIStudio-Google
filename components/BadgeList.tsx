@@ -1,5 +1,5 @@
 import React from 'react';
-import { BADGE_ICONS } from '../constants';
+import { BADGE_ICONS } from '../constants.tsx';
 import { Lock } from 'lucide-react';
 
 interface BadgeListProps {

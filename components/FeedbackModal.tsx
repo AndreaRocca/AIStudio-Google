@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckCircle2, XCircle, Trophy, ArrowRight } from 'lucide-react';
-import { Task } from '../types';
-import { BADGE_ICONS } from '../constants';
+import type { Task } from '../types.ts';
+import { BADGE_ICONS } from '../constants.tsx';
 
 interface FeedbackModalProps {
   isCorrect: boolean;
